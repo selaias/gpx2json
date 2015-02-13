@@ -27,7 +27,7 @@ _.each(result, function(item){
 
 ```
 
-alternatively you can just call `<code>gpx2json.coords</code>` to get a minified array of just the coordinates in the following format:  `<code>{ lat: 50.728357, lng: 4.4971 }</code>`
+alternatively you can just call <code>gpx2json.coords</code> to get a minified array of just the coordinates in the following format:  <code>{ lat: 50.728357, lng: 4.4971 }</code>
 
 
 ```
