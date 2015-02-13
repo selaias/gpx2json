@@ -10,7 +10,7 @@ meteor add selaias:alerts
 
 # Usage
 
-You call the gpx2json.parse function with parameter the gpx stream. You will get an array of tracking items in the following format : `<code>{lon:'4.496940', lat: '50.728383', ele: '0.00', time: '2014-09-20T09:41:45.000Z', sat: '5'}</code>`
+You call the gpx2json.parse function with parameter the gpx stream. You will get an array of tracking items in the following format : <code>{lon:'4.496940', lat: '50.728383', ele: '0.00', time: '2014-09-20T09:41:45.000Z', sat: '5'}</code>
 
 ```
 var fs = Npm.require('fs');
