@@ -6,7 +6,7 @@ Simple tool to parse GPX files using xml2js api.
 # Installation
 
 ```
-meteor add selaias:alerts
+meteor add selaias:gpx2json
 ```
 
 
