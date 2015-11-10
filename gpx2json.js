@@ -32,7 +32,7 @@ gpx2json = {
         data = result.gpx.trk.trkseg.trkpt;
         sorted = _.sortBy(data, 'time');
         _.each(sorted, function(item){
-          var latlng =  {lat: Number(item.lat), lng: Number(item.lon)};
+          var latlng =  {lat: Number(item.lat), lng: Number(item.lon), timestamp: (new Date(item.time)).getTime()};
           self.coords.push(latlng);
         })
         fut.return(data);

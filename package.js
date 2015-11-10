@@ -1,6 +1,6 @@
 Package.describe({
   name: 'selaias:gpx2json',
-  version: '0.1.0',
+  version: '0.2.0',
   summary: 'Parsing GPX files in JSON (using xml2js)',
   git: 'https://github.com/selaias/gpx2json.git',
   documentation: 'README.md'
